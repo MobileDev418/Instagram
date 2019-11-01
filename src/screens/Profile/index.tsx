@@ -186,14 +186,14 @@ export default class ProfileTab extends Component {
                             <Icon name='grid' type={"MaterialCommunityIcons"}
                                   style={[this.state.activeIndex === 0 ? {} : {color: 'grey'}]}/>
                         </Button>
-                        {/*
+                        { // list button
                         <Button transparent
                                 onPress={() => this.segmentClicked(1)}
                                 active={this.state.activeIndex === 1}>
                             <Icon name='ios-list'
                                   style={[this.state.activeIndex === 1 ? {} : {color: 'grey'}]}/>
                         </Button>
-                        */}
+                        }   
                         <Button transparent
                                 onPress={() => this.segmentClicked(1)}
                                 active={this.state.activeIndex === 1}>
